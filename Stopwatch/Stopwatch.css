@@ -62,7 +62,7 @@ button {
 }
 
 .lap-button {
-    background-color: hsla(48, 100%, 50%, 0.9); /* golden yellow */
+    background-color: hsla(48, 100%, 50%, 0.9);
 }
 .lap-button:hover {
     background-color: hsla(48, 100%, 50%, 0.7);
@@ -74,10 +74,10 @@ button {
     font-family: sans-serif;
 }
 
-/* Lap section */
+
 .laps {
     width: 100%;
-    max-height: 200px; /* scrollable if many laps */
+    max-height: 200px; 
     overflow-y: auto;
     border-top: 2px solid rgba(0, 0, 0, 0.2);
     padding-top: 10px;
@@ -109,4 +109,5 @@ button {
 
 .laps li:last-child {
     border-bottom: none;
+
 }
